@@ -44,7 +44,7 @@ $(function(){
     infinite: true,
 
     responsive:[{
-      breakpoint:376,
+      breakpoint:700,
       settings:{
         slidesToShow:1,
       }
