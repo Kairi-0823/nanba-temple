@@ -332,67 +332,8 @@ width: 45%;
   margin: 0 auto;
 }
 
-/* レスポンシブ タブレット */
-@media(max-width:915px){
-/* header */
-.sub-title{
-  font-size: 32px;
-}
-
-/* main */
-.wrapper{
-  max-width: 700px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-/* 納骨 */
-.born p{
-  margin: 24px 0;
-}
-
-.born .btn{
-  margin: 0 auto;
-}
-
-/* 定例法話 */
-.speak-contents{
-  flex-direction: column;
-  margin-top: 24px;
-}
-
-.speak-contents p{
-  text-align: center;
-  margin-bottom: 24px;
-}
-
-/* 年間行事 */
-.event-name dd{
-  margin-bottom: 24px;
-  font-size: 24px;
-}
-
-.event-img {
-  justify-content:center;
-  gap: 20px;
-}
-
-.event-img li{
-  width:200px;
-}
-
-/* 納骨別ページ */
-.born-about{
-  margin-bottom:50px;
-}
-
-.time{
-  font-weight: 100;
-}
-}
-
-/* レスポンシブ スマホ */
-@media(max-width:375px){
+/* レスポンシブ  */
+@media(max-width:800px){
 
   .section-title{
     font-size: 16px;
@@ -400,7 +341,7 @@ width: 45%;
   }
   /* header */
 .sub-title{
-  font-size:16px;
+  font-size:20px;
 }
 
 .site-title{
